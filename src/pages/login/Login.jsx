@@ -26,7 +26,7 @@ class App extends Component {
     //this.context.router.push("/Test");
     axios.post('https://www.easy-mock.com/mock/5a17e84ab23118413626d2ff/example/login').then(res=>{
       if(res.data.success){
-        sessionStorage.setItem("token",res.data.token);
+        localStorage.setItem("token",res.data.token);
         this.props.history.push('/TaskList');
       }
     

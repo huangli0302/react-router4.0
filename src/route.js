@@ -3,7 +3,8 @@ import {
   BrowserRouter as Router,
   Route,
   Link,
-  Switch
+  Switch,
+  Redirect
 } from 'react-router-dom'
 import Login from './pages/login/Login.jsx';
 import TaskList from './pages/task/TaskList.jsx';
