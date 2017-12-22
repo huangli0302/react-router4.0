@@ -1,0 +1,16 @@
+.taskTitle{
+    height:0.8rem;
+    background: #fff;
+    border-bottom:1px solid #ddd;
+}
+.taskTitle a{
+    height:100%;
+    width:50%;
+    text-align:center;
+    line-height:0.8rem;
+    float:left;
+}
+.taskTitle a.select{
+    border-bottom:3px solid #108ee9;
+    box-sizing:border-box;
+}
