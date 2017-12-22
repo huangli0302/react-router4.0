@@ -28,9 +28,10 @@ class Task extends React.Component{
                         <NavLink to='/TaskList/CompleteTask' activeClassName="select">已办按任务</NavLink>
                         <NavLink to='/TaskList/ToDoTask' activeClassName="select">待办任务</NavLink>
                         </div>
-                        <Route path="/TaskList" render={() => (<Redirect to="/TaskList/ToDoTask"/>)}></Route >
+                        <div className="view">
                         <Route path="/TaskList/ToDoTask" component={ToDoTask} />
                         <Route path="/TaskList/CompleteTask" component={CompleteTask} />
+                        </div>
                     </div>
                 </Router>
             </div>

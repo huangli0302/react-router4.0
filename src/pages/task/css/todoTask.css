@@ -1,0 +1,15 @@
+.container{
+    width:100%;
+}
+.todoTaskList{
+    min-height:1rem;
+    box-sizing: border-box;
+    margin-top:.1rem;
+    background: #fff;
+    border-radius: 3px;
+}
+.todoTaskList div{
+    min-height:0.5rem;
+    line-height:0.5rem;
+    margin-left:0.2rem;
+}

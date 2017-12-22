@@ -12,9 +12,9 @@ import TaskList from './pages/task/TaskList.jsx';
 // import CompleteTask from './pages/task/CompleteTask.jsx';
 const BasicExample = () => (
   <Router>
-    <div>
-      <Route exact path="/" component={Login}/>
-      <Route path="/TaskList" component={TaskList}/>
+    <div className="rootRouter">
+       <Route exact path="/" component={Login}/>
+        <Route path="/TaskList" component={TaskList}/>
     </div>
   </Router>
 )
